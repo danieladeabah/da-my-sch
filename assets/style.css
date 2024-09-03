@@ -481,6 +481,10 @@ body {
         margin-bottom: 20px;
     }
 
+    .extra-card-content {
+        flex-direction: column;
+    }
+
     .instructors-lists {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -532,6 +536,10 @@ body {
 
     .course-card {
         max-width: 45%;
+    }
+
+    .extra-card-content {
+        flex-direction: column;
     }
 
     .instructors-lists {
