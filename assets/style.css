@@ -444,7 +444,7 @@ body {
 /* Mobile Devices (up to 767px) */
 @media only screen and (max-width: 767px) {
     body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     .navbar {
@@ -508,7 +508,7 @@ body {
 /* Tablet Devices (768px to 1023px) */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     .navbar {
