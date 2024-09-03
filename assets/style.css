@@ -273,7 +273,7 @@ body {
     padding: 15px 20px;
     margin: 10px 0;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 0 30px 0 20px;
     border: none;
     cursor: pointer;
 }
@@ -285,11 +285,9 @@ body {
 
 .course-card-buttons div {
     padding: 5px 20px;
-    border: none;
     border-radius: 5px;
     font-size: 9px;
     color: var(--white-color);
-    cursor: pointer;
     border: 1px solid var(--white-color);
     cursor: pointer;
     transform: rotate(-2deg);
@@ -471,6 +469,10 @@ body {
         gap: 10px;
     }
 
+    #courses {
+        padding: 0 0;
+    }
+
     .course-cards {
         flex-direction: column;
         align-items: center;
@@ -528,6 +530,10 @@ body {
     .benefit-cards {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    }
+
+    #courses {
+        padding: 0 0;
     }
 
     .course-cards {
