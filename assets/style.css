@@ -52,12 +52,13 @@ body {
 }
 
 .mysch-logo {
+    font-family: cursive, "Comic Sans MS", sans-serif;
     color: var(--purple-color);
     font-size: larger;
 }
 
 .active-link {
-    color: var(--purple-color);
+    color: var(--blue-color);
 }
 
 .contact-info a {
@@ -66,10 +67,11 @@ body {
     font-weight: bold;
 }
 
+
 /* Hero Section */
 .hero {
     color: var(--white-color);
-    padding: 50px 0;
+    padding: 20px 0;
     display: flex;
     align-items: center;
 }
@@ -94,6 +96,10 @@ body {
     border-radius: 0 90px 0 90px;
     transform: rotate(-1deg);
     gap: 30px;
+}
+
+.hero-content-container:hover {
+    transform: rotate(0deg);
 }
 
 .hero-content-container img {
@@ -127,6 +133,12 @@ body {
     padding: 10px 50px;
     text-decoration: none;
     border-radius: 25px;
+}
+
+
+.btn:hover {
+    background-color: var(--grey-color);
+    color: var(--white-color);
 }
 
 
@@ -419,6 +431,12 @@ body {
     border-radius: 25px;
     color: var(--black-color);
     cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: var(--grey-color);
+    color: var(--white-color);
+    transform: rotate(0deg);
 }
 
 
