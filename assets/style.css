@@ -19,7 +19,7 @@
 }
 
 body {
-    font-family: cursive;
+    font-family: cursive, "Comic Sans MS", sans-serif;
 }
 
 .container {
@@ -425,6 +425,10 @@ body {
 /* Responsiveness or Media Queries */
 /* Mobile Devices (up to 767px) */
 @media only screen and (max-width: 767px) {
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -481,6 +485,10 @@ body {
 
 /* Tablet Devices (768px to 1023px) */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
     .navbar {
         flex-direction: row;
         justify-content: space-between;
